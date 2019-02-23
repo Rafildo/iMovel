@@ -1,0 +1,23 @@
+C:\Users\PC\source\repos\iMovel\iMovel\bin\Debug\iMovel.exe.config
+C:\Users\PC\source\repos\iMovel\iMovel\bin\Debug\iMovel.exe
+C:\Users\PC\source\repos\iMovel\iMovel\bin\Debug\iMovel.pdb
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\iMovel.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\MainWindow.g.cs
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\Tela de login.g.cs
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\App.g.cs
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\iMovel_MarkupCompile.cache
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\iMovel_MarkupCompile.lref
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\MainWindow.baml
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\Tela de login.baml
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\iMovel.g.resources
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\iMovel.Properties.Resources.resources
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\iMovel.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\iMovel.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\iMovel.exe
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\iMovel.pdb
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\AdminPage.g.cs
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\AdminPage.baml
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\Cadastrar_usuário.g.cs
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\Cadastrar_usuário.baml
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\Remover_usuário.g.cs
+C:\Users\PC\source\repos\iMovel\iMovel\obj\Debug\Remover_usuário.baml

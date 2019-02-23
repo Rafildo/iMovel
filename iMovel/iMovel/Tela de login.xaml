@@ -1,0 +1,48 @@
+﻿<Window x:Class="iMovel.Tela_de_login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:iMovel"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="89*"/>
+            <ColumnDefinition Width="307*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FF98AAD8"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Usuário" HorizontalAlignment="Left" Height="55" Margin="43,51,0,0" VerticalAlignment="Top" Width="273" FontFamily="Lucida Console" FontSize="36" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Left" Height="51" Margin="43,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="243" FontSize="18" TextChanged="TextBox_TextChanged" Name="user" MaxLength="16" Grid.ColumnSpan="2" >
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFF5FEFF"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <Label Content="Senha" HorizontalAlignment="Left" Height="73" Margin="43,167,0,0" VerticalAlignment="Top" Width="243" FontFamily="Lucida Console" FontWeight="Bold" FontSize="36" Grid.ColumnSpan="2"/>
+        <Button Content="Logar" HorizontalAlignment="Left" Height="53" Margin="43,335,0,0" VerticalAlignment="Top" Width="173" FontFamily="Lucida Console" FontWeight="Bold" FontSize="20" Click="Button_Click" Grid.ColumnSpan="2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <PasswordBox HorizontalAlignment="Left" Margin="43,225,0,0" VerticalAlignment="Top" Width="243" Height="51" MaxLength="16" Name="password" Grid.ColumnSpan="2">
+            <PasswordBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </PasswordBox.Background>
+        </PasswordBox>
+
+    </Grid>
+</Window>
