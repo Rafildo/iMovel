@@ -16,12 +16,12 @@ using System.Windows.Shapes;
 namespace iMovel2
 {
     /// <summary>
-    /// Interação lógica para Tela_de_Login.xam
+    /// Interação lógica para Remover_usuario.xam
     /// </summary>
-    public partial class Tela_de_Login : UserControl
+    public partial class Remover_usuario : UserControl
     {
         private ContentControl control;
-        public Tela_de_Login(ContentControl controle)
+        public Remover_usuario(ContentControl controle)
         {
             this.control = controle;
             InitializeComponent();
@@ -29,24 +29,20 @@ namespace iMovel2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (login.Text == "Rafildo" && password.Password == "123")
+            if (login.Text!= null && password.Password!= null)
             {
-                MessageBox.Show("Logado com sucesso!");
-            }
-            else if(login.Text == "Admin" && password.Password == "123")
-            {
-                MessageBox.Show("Administrador logado com sucesso!");
+                MessageBox.Show("Usuário removido com sucesso!");
                 this.control.Content = new Admin_page(control);
             }
             else
             {
-                MessageBox.Show("Usuário ou senha inválidos");
+                MessageBox.Show("Preencha todos os campos!");
             }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            this.control.Content = new Tela_inicial(control);
+            this.control.Content = new Admin_page(control);
         }
     }
 }

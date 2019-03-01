@@ -55,12 +55,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Admin_page.xaml.cs">
+      <DependentUpon>Admin_page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastrar_usuario.xaml.cs">
+      <DependentUpon>Cadastrar_usuario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Remover_usuario.xaml.cs">
+      <DependentUpon>Remover_usuario.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Tela_de_Login.xaml.cs">
       <DependentUpon>Tela_de_Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_de_usuario.xaml.cs">
+      <DependentUpon>Tela_de_usuario.xaml</DependentUpon>
     </Compile>
     <Compile Include="Tela_inicial.xaml.cs">
       <DependentUpon>Tela_inicial.xaml</DependentUpon>
     </Compile>
+    <Page Include="Admin_page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cadastrar_usuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -73,9 +93,17 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Remover_usuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Tela_de_Login.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Tela_de_usuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Tela_inicial.xaml">
       <Generator>MSBuild:Compile</Generator>

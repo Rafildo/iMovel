@@ -17,3 +17,9 @@ C:\Users\PC\source\repos\iMovel\iMovel2\obj\Debug\iMovel2.csproj.CoreCompileInpu
 C:\Users\PC\source\repos\iMovel\iMovel2\obj\Debug\iMovel2.exe
 C:\Users\PC\source\repos\iMovel\iMovel2\obj\Debug\iMovel2.pdb
 C:\Users\PC\source\repos\iMovel\iMovel2\obj\Debug\iMovel2.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\iMovel\iMovel2\obj\Debug\Admin_page.g.cs
+C:\Users\PC\source\repos\iMovel\iMovel2\obj\Debug\Admin_page.baml
+C:\Users\PC\source\repos\iMovel\iMovel2\obj\Debug\Cadastrar_usuario.g.cs
+C:\Users\PC\source\repos\iMovel\iMovel2\obj\Debug\Cadastrar_usuario.baml
+C:\Users\PC\source\repos\iMovel\iMovel2\obj\Debug\Remover_usuario.g.cs
+C:\Users\PC\source\repos\iMovel\iMovel2\obj\Debug\Remover_usuario.baml

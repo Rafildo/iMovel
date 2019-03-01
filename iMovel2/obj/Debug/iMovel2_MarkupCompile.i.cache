@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\PC\source\repos\iMovel\iMovel2\App.xaml
-3-439690465
+71969935124
 
-11-1622058
+15-419658602
 131569487696
-MainWindow.xaml;Tela_de_Login.xaml;Tela_inicial.xaml;
+Admin_page.xaml;Cadastrar_usuario.xaml;MainWindow.xaml;Remover_usuario.xaml;Tela_de_Login.xaml;Tela_de_usuario.xaml;Tela_inicial.xaml;
 
 True
 
