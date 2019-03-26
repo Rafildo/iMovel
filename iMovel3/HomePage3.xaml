@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="iMovel3.HomePage3"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:iMovel3"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="900">
+    <Grid HorizontalAlignment="Left" Height="550" Margin="10,10,0,0" VerticalAlignment="Top" Width="222">
+        <Button x:Name="AddRenterButton" Content="Adicionar Locatário" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="202" Click="AddRenterButton_Click"/>
+        <Button x:Name="AddRealtyButton" Content="Adicionar Imóvel" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" Width="202" Click="AddRealtyButton_Click"/>
+        <Button x:Name="BindContractButton" Content="Vincular Contrato" HorizontalAlignment="Left" Margin="10,270,0,0" VerticalAlignment="Top" Width="202" Click="BindContractButton_Click"/>
+        <Calendar HorizontalAlignment="Left" Margin="590,-4,-653,0" VerticalAlignment="Top" Width="285"/>
+        <Button x:Name="ExitButton" Content="Sair" HorizontalAlignment="Left" Margin="10,508,0,0" VerticalAlignment="Top" Width="202" Click="ExitButton_Click"/>
+    </Grid>
+</UserControl>
